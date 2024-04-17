@@ -1,0 +1,113 @@
+.container{
+  background-color:rgb(25,25,25);
+  border: 2px solid rgb(25,25,25);
+  border-radius: 20px ;
+}
+nav ul li{
+  display:inline ;
+  padding-right: 20px ;
+}
+  a{
+    text-decoration: none ;
+    color: yellow;
+  }
+    #hero
+{
+    padding-top:9px;
+    padding-bottom:90 px;
+    border-radius: 20px ;
+    background-color:red;
+    background-image:url("E.jpg") ;
+   background-size:cover ;
+    border:0.01px solid white;
+  }
+  h1{
+    padding-top:70px ;
+    padding-bottom:70px ;
+  }
+  /* unecerssary */
+
+    body {
+
+        background-color:rgb();
+        height:100%;
+    }
+    /* unecerssary */
+    h1{
+        font-size: size 02relm;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1{
+        color: transparent;
+        -webkit-text-stroke:1px white;
+        position: relative;
+    }
+    h1::before {
+        content:"Welcome on my computer world and my official website........";
+        position: absolute;
+        width: 0%;
+        height:100%;
+        overflow: hidden;
+        color: red;
+        border-right:none;   
+        transition:( Is ease-in-out);
+    }
+    h1:hover::before{
+        width: 100%;
+        filter:drop-shadow: 25px  ;
+    }
+    .btn{
+      color: white ;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: lawngreen;
+      padding:10px 15px;
+      margin-bottom:20px;
+    }
+    p{
+      font-size: 15px;
+    }
+    h2 {
+      text-align: center;
+      color: red;
+    }
+    h3{
+      text-align:center ;
+      color: red;
+    }
+    h4{
+      text-align: center;
+      color:red ;
+    }
+    h5{
+      text-align: center;
+      color: red;
+    }
+    footer{
+      color: red;
+      background-color: black;
+      border-radius:30px ;
+      padding:10px 10px;
+      text-align:center;
+    }
+    dt{
+      font-size: 20px ;
+    }
+    dd{
+      font-size: 15px ;
+    }
+    img{
+      border-radius: 20px ;
+    }
+    input[type=search], input[type=password], input[type=email]{
+
+  width: 100%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(25,25,25);
+  box-sizing: border-box;
+  border-radius:15px ;
+}
+  
